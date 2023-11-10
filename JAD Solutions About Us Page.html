@@ -6,21 +6,56 @@
 
 <style type="text/css">
 
+    @font-face {
+        font-family: 'Century G';
+        src: url("Century Gothic.ttf");
+    }
+
+    @font-face {
+        font-family: 'Agency_FB';
+        src: url("AgencyFB.ttf");
+    }
+
+    .button {
+        background-color: #08002f;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 50px;
+        width: 250px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+    .button:hover {
+        background-color: #005ae8;
+        color: black;
+    }
+
+    .paragraph {
+        margin: 100px;
+        max-width: auto;
+    }
+
     .header {
-        font-family: 'Century Gothic';
+        font-family: 'Century G';
         font-size: 45px;
         background-color: #005ae8;
         color: white;
         margin: 0px;
         padding: 20px;
+        max-width: auto;
     }
 
     .header2 {
-        font-family: 'Century Gothic';
+        font-family: 'Century G';
         font-size: 25px;
         color: black;
         margin: 0px;
         padding: 10px;
+        max-width: auto;
     }
 
     .header3 {
@@ -30,6 +65,7 @@
         background-attachment: fixed;
         margin: 0px;
         padding: 10px;
+        max-width: auto;
     }
 
     .container {
@@ -43,6 +79,7 @@
         align-items: center;
         grid-template-columns: 1fr 1fr;
         column-gap: 100px;
+        max-width: auto;
     }
 
     img {
@@ -55,7 +92,7 @@
     }
 
     body {
-        font-family: 'Agency FB';
+        font-family: 'Agency_FB';
         font-size: 35px;
         background-color: white;
         color: black;
@@ -126,10 +163,14 @@
 
         <center><h1><b>About Us</b></h1></center>
     </font>
+    
+    <div class="paragraph">
 
-    <p align="justify">
-        JAD Solutions is a duty registered privately owned small business, located in Las Piñas City. Established with a prime mission to be one of the best key players in the market industries as it has direct access in the inventory of the key manufacturers or distributors. A vision… “To satisfy and serve beyond the customers’ satisfaction”. Guaranteed of competitive pricing, quick response on RFQ’s and on-time deliveries.
-    </p>
+        <p align="justify">
+            JAD Solutions is a duty registered privately owned small business, located in Las Piñas City. Established with a prime mission to be one of the best key players in the market industries as it has direct access in the inventory of the key manufacturers or distributors. A vision… “To satisfy and serve beyond the customers’ satisfaction”. Guaranteed of competitive pricing, quick response on RFQ’s and on-time deliveries.
+        </p>
+
+    </div>
 
     <br />
     <br />
@@ -144,14 +185,15 @@
 
         <div class="text">
 
-            <p>
-                <b>Office Address:</b> 16-A Cadena de Amor Street<br />
-                Doña Manuela 1 Subdivision<br />
-                Barangay Pamplona 3<br />
-                Las Piñas City<br />
-                <b>Email:</b> jericdayrit15@gmail.com<br />
-                <b>Tel No:</b> 8846-33-79
-            </p>
+            <br />
+            <br />
+            <center><font size="10">Comments? Inquiries?</font></center>
+            <br />
+
+            <center>
+                <a href="JAD Solutions Contact Us Page.html"><div class="button">Contact Us</div></a>
+            </center>
+
         </div>
 
     </div>
