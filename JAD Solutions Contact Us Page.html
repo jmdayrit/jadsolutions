@@ -1,122 +1,49 @@
 ﻿<!DOCTYPE html>
 
-<script type="text/javascript">
-
-</script>
-
-<style type="text/css">
-
-    @font-face {
-        font-family: 'Century G';
-        src: url("Century Gothic.ttf");
-    }
-
-    @font-face {
-        font-family: 'Agency_FB';
-        src: url("AgencyFB.ttf");
-    }
-
-    .header {
-        font-family: 'Century G';
-        font-size: 45px;
-        background-color: #005ae8;
-        color: white;
-        margin: 0px;
-        padding: 20px;
-        max-width: auto;
-    }
-
-    .header2 {
-        font-family: 'Century G';
-        font-size: 25px;
-        color: black;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
-        max-width: auto;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 10px;
-        max-width: auto;
-    }
-
-    .header3 {
-        background-image: url("Contact 2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        margin: 0px;
-        padding: 10px;
-        max-width: auto;
-    }
-
-    .container {
-        background-image: url("Contact.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        color: white;
-        padding: 10px;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 100px;
-        max-width: auto;
-    }
-
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .text {
-        font-size: 25px;
-    }
-
-    body {
-        font-family: 'Agency_FB';
-        font-size: 35px;
-        background-color: white;
-        color: black;
-    }
-
-    a:link {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-    }
-
-    a:visited {
-        color: black;
-        background-color: transparent;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: grey;
-        background-color: transparent;
-        text-decoration: none;
-    }
-
-    a:active {
-        color: dimgrey;
-        background-color: transparent;
-        text-decoration: none;
-    }
-</style>
-
 <html>
 <head>
 
     <title>JAD Solutions</title>
     <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <style type="text/css">
+
+        .header3 {
+            background-image: url("Contact 2.jpg");
+        }
+        
+        .button {
+            background-color: black;
+            border: solid;
+            border-color: white;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 25px;
+            width: 250px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+
+            .button:hover {
+                color: black;
+                background-color: #b2b2b2;
+                border-color: black;
+            }
+
+        .container {
+            background-image: url("Contact.png");
+        }
+
+    </style>
 
 </head>
 <body>
 
     <div class="header">
-        JAD Solutions
+        <img src="JAD Solutions.png" style="width: 20%; height: 20%;" />
     </div>
 
     <div class="header2">
@@ -148,21 +75,24 @@
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
 
     </div>
 
     <br />
     <br />
+    <br />
+    <br />
 
-    <font size="48">
-
-        <center><h1><b>Contact Us</b></h1></center>
-    </font>
     <font size="38">
 
         <center><h3>Contact us with these details:</h3></center>
     </font>
 
+    <br />
+    <br />
     <br />
 
     <div class="container">
@@ -180,6 +110,10 @@
                 Barangay Pamplona 3<br />
                 Las Piñas City<br />
                 <b>Email:</b> jericdayrit15@gmail.com<br />
+                <center>
+                    <a href="mailto:jericdayrit15@gmail.com"><div class="button">Email Us</div></a>
+                </center>
+                <br />
                 <b>Tel No:</b> 8846-33-79
             </p>
         </div>

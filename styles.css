@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Century G';
+    src: url("Century Gothic.ttf");
+}
+
+@font-face {
+    font-family: 'Agency_FB';
+    src: url("AgencyFB.ttf");
+}
+
+.header {
+    background-color: #005ae8;
+    margin: 0px;
+    padding: 0px;
+    max-width: auto;
+}
+
+.header2 {
+    font-family: 'Century G';
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    max-width: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    max-width: auto;
+}
+
+.header3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 10px;
+    max-width: auto;
+}
+
+.container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    max-width: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Agency_FB';
+    font-size: 35px;
+    background-color: white;
+    color: black;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: dimgrey;
+    background-color: transparent;
+    text-decoration: none;
+}

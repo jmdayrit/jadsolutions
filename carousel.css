@@ -1,0 +1,40 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide{
+
+    position: relative;
+    display: flex;
+    width: 1450px;
+    height: 830px;
+
+}
+
+#prevbutton {
+    position: absolute;
+    top: auto;
+    z-index: 10;
+    left: 3%;
+    cursor: pointer;
+}
+
+#nextbutton {
+    position: absolute;
+    top: auto;
+    z-index: 10;
+    right: 3%;
+    cursor: pointer;
+}
